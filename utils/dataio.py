@@ -62,7 +62,6 @@ def load_conll_data(filename, url_root=CONLL_URL_ROOT, dir_path='',
     """
     Take an url to the raw .txt files that you can find the repo linked above,
     load data and save it into a list of tuples data structure.
-    
     Those files structure data with a word in each line with word, POS, 
     syntactic tag and entity tag separated by a whitespace. Sentences are 
     separated by an empty line.

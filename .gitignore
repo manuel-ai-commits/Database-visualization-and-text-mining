@@ -1,1 +1,4 @@
 data/
+models/
+logs/
+checkpoints/feedf/feedf-conll-best-model.h5
