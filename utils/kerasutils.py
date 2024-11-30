@@ -193,4 +193,6 @@ def remove_seq_padding(X, y_true, y_pred, pad=0):
                 pred_sent.append(y_pred[sent_idx][tok_idx])
         new_true.append(true_sent)
         new_pred.append(pred_sent)
-    return np.array(new_true), np.array(new_pred)
+    
+    # Ensure that the returned lists are of object type to handle varying lengths
+    return np.array(new_true, dtype=object), np.array(new_pred, dtype=object)

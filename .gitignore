@@ -2,3 +2,7 @@ data/
 models/
 logs/
 checkpoints/feedf/feedf-conll-best-model.h5
+*.json
+*.h5
+*.safetensors
+*.pyc
